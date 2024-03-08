@@ -1,35 +1,91 @@
-@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+p, a, li, h1, h2, h3, h4, h5, h6, span {
+    font-family: 'Poppins', sans-serif;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+* {
+    padding: unset;
+    margin: unset;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
+header {
+    width: 100vw;
+    height: 70px;
+    background-color: #8A9970;
     display: flex;
-    place-items: center;
-  }
+    justify-content: space-between;
+    align-items: center;
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: inherit;
+        width: 20%;
+
+        .header-logo {
+            width: 128px;
+            height: 64;
+        }
+    
+        .vertical-devider {
+            width: 1px;
+            height: 40%;
+            background-color: white;
+        }
+    }
+
+    nav {
+        width: 60%;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 50px;
+            list-style-type: none;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+
+            li a {
+                text-transform: uppercase;
+                cursor: pointer;
+
+                transition: 0.25s color;
+
+                &:hover {
+                    transition: 0.25s color;
+                    color: #F2E3D3;
+                }
+            }
+        }
+    }
+
+    .account-container {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+
+        span {
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #839365;
+            border: unset;
+            border-radius: 15px;
+            padding: 10px 14px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 17px;
+        }
+    }
 }

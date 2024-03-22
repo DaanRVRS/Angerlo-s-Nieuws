@@ -1,0 +1,49 @@
+.btn {
+    border: unset;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.35s;
+    color: white;
+}
+
+.back-button {
+    position: fixed;
+    top: 90px;
+    left: 20px;
+}
+
+.btn-primary {
+    background-color: #8A9970;
+    padding: 8px 12px;
+
+    &:hover {
+        background-color: #697455;
+    }
+}
+
+.btn-warning {
+    background-color: rgb(214, 214, 0);
+    padding: 8px 12px;
+
+    &:hover {
+        background-color: rgb(168, 168, 2);
+    }
+}
+
+.btn-info {
+    background-color: #007bff;
+    padding: 8px 12px;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+
+.btn-danger {
+    background-color: rgb(189, 14, 14);
+    padding: 8px 12px;
+
+    &:hover {
+        background-color: rgb(136, 12, 12);
+    }
+}

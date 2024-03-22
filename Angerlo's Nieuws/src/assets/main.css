@@ -50,7 +50,7 @@ header {
             font-weight: bold;
             font-size: 20px;
 
-            li a {
+            .route {
                 text-transform: uppercase;
                 cursor: pointer;
                 color: white;

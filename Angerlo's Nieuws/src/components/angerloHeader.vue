@@ -9,10 +9,9 @@
 
       <nav>
         <ul>
-          <li><a href="laatste-nieuws">Laatste nieuws</a></li>
-          <li><a href="laatste-edities">Laatste edities</a></li>
-          <li><a href="an-supporter">AN supporter</a></li>
-          <li><a href="contact">Contact</a></li>
+          <router-link class="route" to="/laatste-nieuws">laatste nieuws</router-link>
+          <router-link class="route" to="/laatste-edities">Laatste edities</router-link>
+          <router-link class="route" to="/contact">contact</router-link>
         </ul>
       </nav>
 

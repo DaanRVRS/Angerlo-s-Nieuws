@@ -91,3 +91,104 @@ header {
         }
     }
 }
+footer{
+    width: 100vw;
+    height: 325px;
+    background-color: #8A9970;
+    display: flex;
+    justify-content: space-between;
+    margin-top:500px;
+
+    .contact{
+        width:33%;
+        height:300px;
+        display:flex;
+        flex-direction:column;
+
+        .contact-title{
+            color:white;
+            font-size:25px;
+            font-weight: bolder;
+            font-family: 'Poppins', sans-serif;
+            padding-left: 40px;
+            padding-top:30px;
+        }
+        p{
+            color:white;
+            font-size:13px;
+            font-weight:450;
+            font-family: 'Poppins', sans-serif;
+            padding-left: 40px;
+            padding-top:17px;
+        }
+    }
+    .nieuws-container{
+        width:33%;
+        height:300px;
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+
+        .nieuws-title{
+            color:white;
+            padding-top:30px;
+            font-size:25px;
+            font-weight: bolder;
+            font-family: 'Poppins', sans-serif;
+        }
+        ul{
+            text-decoration: none;
+            list-style: none; 
+        }
+        li{
+            margin-top:17px;
+        
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+
+    }
+    .info-footer{
+        width:33%;
+        height:300px;
+        display: flex;
+        flex-direction:column;
+        align-items: end;
+
+        .footer-logo{
+            color:white;
+            padding-right: 40px;
+            margin-top:30px;
+            width:200px;
+            height:80px;
+        }
+        .info-container{
+            display:flex;
+            flex-direction: column;
+            align-items: start ;
+            max-width: 240px;
+            margin-right:-15px;
+            width:100%;
+
+            .info-title{
+            color:white;
+            font-size:12px;
+            font-weight: bolder;
+            font-family: 'Poppins', sans-serif;
+            max-width:200px; 
+            margin-bottom:12.5px;
+            margin-top:12.5px;
+        }
+        p{
+            color:white;
+            font-size:13px;
+            font-weight:450;
+            font-family: 'Poppins', sans-serif;
+            padding-right: 40px;
+            padding-top:5px;
+        }
+    }
+  }
+}

@@ -53,6 +53,8 @@ header {
             li a {
                 text-transform: uppercase;
                 cursor: pointer;
+                color: white;
+                text-decoration: none;
 
                 transition: 0.25s color;
 

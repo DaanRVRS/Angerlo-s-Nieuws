@@ -1,16 +1,18 @@
 <template>
     <header>
       <div class="logo-container">
-        <img class="header-logo" src="/angerlo-logo.png" alt="Angerlo logo">
+        <a href="/">
+          <img class="header-logo" src="/angerlo-logo.png" alt="Angerlo logo">
+        </a>
         <div class="vertical-devider"></div>
       </div>
 
       <nav>
         <ul>
-          <li><a>Laatste nieuws</a></li>
-          <li><a>Laatste edities</a></li>
-          <li><a>AN supporter</a></li>
-          <li><a>Contact</a></li>
+          <li><a href="laatste-nieuws">Laatste nieuws</a></li>
+          <li><a href="laatste-edities">Laatste edities</a></li>
+          <li><a href="an-supporter">AN supporter</a></li>
+          <li><a href="contact">Contact</a></li>
         </ul>
       </nav>
 

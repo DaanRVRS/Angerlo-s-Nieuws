@@ -1,5 +1,6 @@
 <template>
-  <div class="contact-container"></div>
+  <div class="contact-container">
+  </div>
 </template>
 
 <script>

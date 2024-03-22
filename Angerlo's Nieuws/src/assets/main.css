@@ -9,6 +9,11 @@ p, a, li, h1, h2, h3, h4, h5, h6, span {
     margin: unset;
 }
 
+/* removes */
+#app {
+    overflow-x: hidden;
+}
+
 header {
     width: 100vw;
     height: 70px;
@@ -139,12 +144,11 @@ footer{
         ul{
             text-decoration: none;
             list-style: none; 
+            display: flex;
+            flex-direction: column;
         }
-        li{
+        .route{
             margin-top:17px;
-        
-        }
-        a{
             text-decoration: none;
             color:white;
         }

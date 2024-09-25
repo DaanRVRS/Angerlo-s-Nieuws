@@ -3,7 +3,7 @@
 <main class="main-content">
   <div class="content-wrapper">
     <div class="main-story">
-      <h2>Main Story</h2>
+      <h2>Main Storybbbbbbbb</h2>
       <?php if (have_posts()) : ?>  <!-- Controleer of er berichten zijn -->
           <?php while (have_posts()) : the_post(); ?>  <!-- Begin de loop -->
               <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

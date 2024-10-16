@@ -20,4 +20,15 @@ get_header(); ?>
       
     </div>
   </div>
+  <div class="top-news-container">
+    <div class="ad-container">
+
+    </div>
+    <div class="news-block-container">
+      
+    </div>
+    <div class="small-news-container">
+      
+    </div>
+  </div>
 </main>

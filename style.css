@@ -1,0 +1,79 @@
+/* Theme Name: Angerlo-s-Nieuws
+Description: Een thema voor Angerlo nieuws.
+Version: 1.0
+Author: Sergio & Daan
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header.site-header {
+    background-color: #00b300;
+    color: white;
+    padding: 15px 20px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-section h1 {
+    font-size: 24px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.logo-section span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 2px;
+}
+
+.separator {
+    width: 2px;
+    height: 40px; 
+    background-color: white;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding: 0 35px;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    background-color: #6E6E6E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #666666;
+}

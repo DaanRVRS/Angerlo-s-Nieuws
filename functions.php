@@ -7,4 +7,6 @@ function angerlosnieuws_enqueue_styles() {
     // wp_enqueue_style('custom-style', get_template_directory_uri() . '/css/custom-style.css');
 }
 add_action('wp_enqueue_scripts', 'angerlosnieuws_enqueue_styles');
+
+
 ?>

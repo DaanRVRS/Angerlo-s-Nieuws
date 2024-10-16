@@ -15,7 +15,7 @@ body {
 }
 
 header.site-header {
-    background-color: #00b300;
+    background-color: #008000;
     color: white;
     padding: 15px 20px;
 }
@@ -76,4 +76,44 @@ header.site-header {
 
 .login-button:hover {
     background-color: #666666;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 35px;
+    background-color: #F1F1F1;
+}
+
+.top-news-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #F1F1F1;
+}
+
+.news-slider-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80vh;
+    background-color: #D9D9D9;
+}
+
+.small-news-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 80vh;
+    background-color: #D9D9D9;
 }

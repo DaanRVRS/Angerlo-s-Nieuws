@@ -1058,3 +1058,64 @@ header {
 		margin-right: 15px;
 	}
 }
+
+/* Algemene styling voor de aangepaste footer */
+.custom-footer {
+    background-color: #0078D7; /* Blauwe achtergrondkleur */
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-contact h3,
+.footer-logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.footer-contact a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.footer-logo p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* Responsieve aanpassingen voor kleinere schermen */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-contact,
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+}

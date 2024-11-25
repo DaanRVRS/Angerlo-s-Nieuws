@@ -1049,7 +1049,7 @@ header {
 
 		&:hover {
 			background-color: white;
-			transition: all 0.5s;
+			transition: all 0.5s ease-in-out;
 			color: var(--header-background-color) !important;
 		}
 	}

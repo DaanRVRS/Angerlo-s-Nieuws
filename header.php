@@ -20,8 +20,8 @@
 			<ul>
 				<li><a href="/">Home</a></li>
 				<li><a href="/laatste-nieuws">Laatste Nieuws</a></li>
-				<li><a href="/laatste-nieuws">Laatste Edities</a></li>
-				<li><a href="/laatste-nieuws">AN Supporter</a></li>
+				<li><a href="/laatste-edities">Laatste Edities</a></li>
+				<li><a href="/an-supporter">AN Supporter</a></li>
 				<li><a href="/contact">Contact</a></li>
 			</ul>
 		</nav>

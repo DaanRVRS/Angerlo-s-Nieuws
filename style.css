@@ -66,6 +66,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+:root {
+ --header-background-color: #6A785E;
+}
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
@@ -975,4 +978,83 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+
+header {
+	background-color: var(--header-background-color);
+	color: white;
+	width: calc(100vw - 15px);
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.left-container {
+		display: flex;
+	}
+
+	.logo-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 15px;
+
+		img {
+			max-height: 80px !important;
+			cursor: pointer;
+		}
+
+		.vertical-divider{
+			height: 50px;
+			width: 1px;
+			background-color: white;
+		}
+	}
+
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		ul {
+			list-style: none;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 15px;
+			margin: unset;
+
+			li a {
+				text-decoration: none;
+				color: white !important;
+				cursor: pointer;
+
+				&:hover {
+					color: #f0f0f0 !important;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.login-button {
+		margin-right: 20px;
+		padding: 8px;
+		cursor: pointer;
+		color: white !important;
+		text-decoration: none;
+		font-size: 20px !important;
+		border: 1px solid white;
+		border-radius: 3px;
+
+		&:hover {
+			background-color: white;
+			transition: all 0.5s;
+			color: var(--header-background-color) !important;
+		}
+	}
+
+	.loggedin-username {
+		margin-right: 15px;
+	}
 }

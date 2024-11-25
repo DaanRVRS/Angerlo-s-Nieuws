@@ -1,6 +1,6 @@
 <?php
 
-if (!$footer_rendered):
+// if (!$footer_rendered):
 
     // Start van de aangepaste footer
     ?>
@@ -15,15 +15,15 @@ if (!$footer_rendered):
             
             <!-- Logo of merknaam -->
             <div class="footer-logo">
-                <h1>ANGERLO'S</h1>
-                <p>NIEUWS</p>
+			<img class="angerlos-nieuws" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="angerlos-nieuws">
+
             </div>
         </div>
     </footer>
     <?php
     // Einde van de aangepaste footer
 
-endif;
+// endif;
 
 wp_footer();
 ?>

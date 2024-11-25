@@ -87,7 +87,7 @@
 		--site-bk-color: #fbfbfb;
 
 		/* Top Header */
-		--top-header-bk-color: #1b8415;
+		--top-header-bk-color: #6A785E;
 		--top-header-border-btm-c: #E8E8E8;
 
 		--top-header-dt-color: #fff;
@@ -101,7 +101,7 @@
 
 		/* Menu Bk Color */
 		--menu-bk-color: #fff;
-		--menu-border-top-color: #1b8415;
+		--menu-border-top-color: #6A785E;
 
 		--submenu-border-btm-color: #ebebeb;
 
@@ -172,7 +172,7 @@
 		--post-content-color: #505050;
 		--post-meta-color: #8A8A8C;
 
-		--theme-color-red: #1B8415;
+		--theme-color-red: #6A785E;
 		--dark-bk-color: #000000;
 
 		--inner-container-bk: #fff;
@@ -341,13 +341,13 @@
 			--menu-texttransform: uppercase;
 
 			--menu-color: #000;
-			--menu-color-hover: #1B8415;
+			--menu-color-hover: #6A785E;
 
 			--menu-weight: 700;
 
-			--menu-color-active: #1B8415;
+			--menu-color-active: #6A785E;
 			--menu-color-submenu: #000000;
-			--menu-color-submenu-hover: #1B8415;
+			--menu-color-submenu-hover: #6A785E;
 
 			/* Submenu */
 			--submenu-size: 15px;
@@ -440,11 +440,11 @@
 		--move-to-top-color: #ffffff;
 		--move-to-top-color-hover: #ffffff;
 
-		--move-to-top-background-color: #1B8415;
-		--move-to-top-background-color-hover: #1B8415;
+		--move-to-top-background-color: #6A785E;
+		--move-to-top-background-color-hover: #6A785E;
 
-		--move-to-top-border-color: #1B8415;
-		--move-to-top-border-color-hover: #1B8415;
+		--move-to-top-border-color: #6A785E;
+		--move-to-top-border-color-hover: #6A785E;
 
 		--move-to-top-font-size: 20px;
 		--move-to-top-font-size-tablet: 16px;
@@ -470,19 +470,19 @@
 
 		/** Sidebar Toggle color */
 		--sidebar-toggle-color: #000;
-		--sidebar-toggle-color-hover: #1B8415;
+		--sidebar-toggle-color-hover: #6A785E;
 
 		/** NewsLetter color */
 		--newsletter-color: #525252;
-		--newsletter-color-hover: #1B8415;
+		--newsletter-color-hover: #6A785E;
 
 		/** Random News color */
 		--random-news-color: #525252;
-		--random-news-color-hover: #1B8415;
+		--random-news-color-hover: #6A785E;
 
 		/** Search color */
 		--search-color: #000000;
-		--search-color-hover: #1B8415;
+		--search-color-hover: #6A785E;
 
 		--website-frame-color: #d95f3d;
 
@@ -584,7 +584,7 @@
 		--post-content-color: #505050;
 		--post-meta-color: #c3c3c3;
 
-		--theme-color-red: #1B8415;
+		--theme-color-red: #6A785E;
 		--dark-bk-color: #1a1a1a;
 
 		--inner-container-bk: #222222;
@@ -4103,7 +4103,7 @@
 		}
 
 	.site-footer.dark_bk {
-		border-top: 5px solid  #1B8415;
+		border-top: 5px solid  #6A785E;
 	}
 	.site-footer .bottom-footer {
 		padding: 20px 0;
@@ -7110,7 +7110,7 @@
 	}
 
 	#newsmatic-scroll-to-top.show:hover {
-		border-color: #1B8415 ;
+		border-color: #6A785E ;
 	}
 
 

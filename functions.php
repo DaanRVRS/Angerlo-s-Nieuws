@@ -18,6 +18,30 @@ if ( ! defined( 'NEWSMATIC_PREFIX' ) ) {
 	define( 'NEWSMATIC_PREFIX', 'newsmatic_' );
 }
 
+
+/**
+ * registers menu and adds hooks
+ */
+function mytheme_register_menus() {
+    register_nav_menus([
+        'navigation' => __('Navigations Menu', 'mytheme'),
+    ]);
+}
+add_action('after_setup_theme', 'mytheme_register_menus');
+
+function mytheme_display_navigations_menu() {
+    wp_nav_menu([
+        'theme_location' => 'navigation',
+        'container' => 'nav',
+        'container_class' => 'navigations-menu-container',
+        'menu_class' => 'navigations-menu',
+        'fallback_cb' => false, // Geen fallback als er geen menu is ingesteld
+    ]);
+}
+add_action('mytheme_before_header', 'mytheme_display_navigations_menu');
+
+
+
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *

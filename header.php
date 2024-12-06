@@ -12,7 +12,7 @@
 <header>
 	<div class="left-container">
 		<div class="logo-container">
-			<a href="/">
+			<a href="<?php echo home_url('/'); ?>">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="angerlo's logo">
 			</a>
 			<div class="vertical-divider"></div>

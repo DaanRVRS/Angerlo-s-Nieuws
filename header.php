@@ -19,11 +19,11 @@
 		</div>
 		<nav>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/laatste-nieuws">Laatste Nieuws</a></li>
-				<li><a href="/laatste-edities">Laatste Edities</a></li>
-				<li><a href="/an-supporter">AN Supporter</a></li>
-				<li><a href="/contact">Contact</a></li>
+				<li><a href="<?php echo home_url('/'); ?>">Home</a></li>
+				<li><a href="<?php echo home_url('/laatste-nieuws'); ?>">Laatste Nieuws</a></li>
+				<li><a href="<?php echo home_url('/laatste-edities'); ?>">Laatste Edities</a></li>
+				<li><a href="<?php echo home_url('/an-supporter'); ?>">AN Supporter</a></li>
+				<li><a href="<?php echo home_url('/contact'); ?>">Contact</a></li>
 			</ul>
 		</nav>
 	</div>

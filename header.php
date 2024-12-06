@@ -8,6 +8,7 @@
 	<?php wp_head(); ?>
 </head>
 <!-- HIER MOET DE NIEUWE HEADER HTML -->
+<?php do_action('mytheme_before_header'); ?>
 <header>
 	<div class="left-container">
 		<div class="logo-container">

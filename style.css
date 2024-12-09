@@ -983,7 +983,7 @@ textarea {
 article header {
 	background-color: var(--header-background-color);
 	color: red;
-	width: 35vw !important;
+	width: 41vw !important;
 	height: 80px;
 	display: flex;
 	align-items: center;
@@ -1152,6 +1152,7 @@ footer img {
 }
 
 .wpcf7 input[type="submit"] {
+	width: 50%;
 	background-color: #0073aa;
 	color: #fff;
 	padding: 10px 20px;

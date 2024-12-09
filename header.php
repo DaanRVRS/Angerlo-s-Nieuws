@@ -12,18 +12,18 @@
 <header>
 	<div class="left-container">
 		<div class="logo-container">
-			<a href="/">
+			<a href="<?php echo home_url('/'); ?>">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="angerlo's logo">
 			</a>
 			<div class="vertical-divider"></div>
 		</div>
 		<nav>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/laatste-nieuws">Laatste Nieuws</a></li>
-				<li><a href="/laatste-edities">Laatste Edities</a></li>
-				<li><a href="/an-supporter">AN Supporter</a></li>
-				<li><a href="/contact">Contact</a></li>
+				<li><a href="<?php echo home_url('/'); ?>">Home</a></li>
+				<li><a href="<?php echo home_url('/laatste-nieuws'); ?>">Laatste Nieuws</a></li>
+				<li><a href="<?php echo home_url('/laatste-edities'); ?>">Laatste Edities</a></li>
+				<li><a href="<?php echo home_url('/an-supporter'); ?>">AN Supporter</a></li>
+				<li><a href="<?php echo home_url('/contact'); ?>">Contact</a></li>
 			</ul>
 		</nav>
 	</div>

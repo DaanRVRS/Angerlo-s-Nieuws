@@ -9,7 +9,7 @@ use Newsmatic\CustomizerDefault as ND;
 $slider_args = $args['slider_args'];
 ?>
 <div class="main-banner-wrap">
-    <div class="main-banner-slider" data-auto="true" data-arrows="true">
+    <!-- <div class="main-banner-slider" data-auto="true" data-arrows="true">
         <?php
             $slider_args = apply_filters( 'newsmatic_query_args_filter', $slider_args );
             $slider_query = new WP_Query( $slider_args );
@@ -46,6 +46,10 @@ $slider_args = $args['slider_args'];
                 wp_reset_postdata();
             endif;
         ?>
+    </div> -->
+        <!-- custom advertentie slider blok -->
+    <div class="ad-slider">
+
     </div>
 </div>
 

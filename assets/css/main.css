@@ -2445,6 +2445,12 @@
     	visibility: visible;
     }
 
+	.ad-slider {
+		width: 100%;
+		height: calc(100% + 8px);
+		background-color: red;
+	}
+
     .main-banner-wrap .slick-arrow:hover {
     	cursor: pointer;
     	opacity: 1;
@@ -3072,6 +3078,10 @@
 	.secondary-left-sidebar .widget {
 		margin-bottom: 20px;
 		position: relative;
+	}
+
+	.bottom-full-width-section {
+		display: none !important;
 	}
 
 	.newsmatic_site_block_border_top .newsmatic-section .primary-content > div,
